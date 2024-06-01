@@ -34,8 +34,15 @@ const formFields = [
   },
 ];
 
+const colorMapper = {
+  error: "red",
+  success: "green",
+  neutral: "dark",
+};
+
 function ContactForm() {
   const [result, setResult] = useState();
+  const [color, setColor] = useState("neutral");
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -52,10 +59,12 @@ function ContactForm() {
     const data = await response.json();
 
     if (data.success) {
+      setColor("success");
       setResult("Form submitted successfully. We will be in touch shortly!");
       event.target.reset();
     } else {
       console.log("Error", data);
+      setColor("error");
       setResult("Unable to submit form!");
     }
   };
@@ -66,7 +75,7 @@ function ContactForm() {
       <div className="w-full mt-12 lg:mt-0">
         <div className="w-full px-4 py-12 mx-auto shadow-xl rounded-3xl lg:mr-0 lg:ml-auto bg-dark-700 sm:p-16 lg:p-14 xl:p-16">
           {/* Contact form */}
-          <form action="#">
+          <form onSubmit={handleSubmit}>
             {formFields.map((field, index) => (
               <div
                 key={`contact-form-field-${index}}`}
@@ -106,11 +115,12 @@ function ContactForm() {
             <div className="flex justify-start mt-6">
               <PrimaryButton type="submit">Send message</PrimaryButton>
             </div>
-            {result && (
-              <p className="max-w-lg mx-auto mt-3 text-sm md:mt-5 text-dark-300 sm:max-w-2xl">
-                {result}
-              </p>
-            )}
+
+            <p
+              className={`max-w-lg mx-auto mt-3 text-sm md:mt-5 sm:max-w-2xl text-${colorMapper[color]}-300 h-1`}
+            >
+              {result}
+            </p>
           </form>
         </div>
       </div>
