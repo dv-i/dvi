@@ -139,13 +139,13 @@ export const ArchivedCaseStudies = ({ caseStudies, categories }) => {
         <div className="grid w-full gap-6 mt-6 lg:grid-cols-5">
           <div className="lg:col-span-3">
             <h2 className="text-3xl font-extrabold leading-tight text-white sm:text-4xl md:text-5xl md:leading-tight sm:leading-tight">
-              Filter through hundreds of our projects by industry
+              Filter through dozens of projects in our portfolio
             </h2>
           </div>
           <div className="lg:col-span-2">
             <p className="text-xl text-dark-300">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eius
-              mod tempor incididunt ut labore et.
+              Currently we are working on adding all of our projects here. Stay
+              tuned !
             </p>
           </div>
         </div>

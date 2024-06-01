@@ -14,7 +14,8 @@ const navbar = {
     { label: "Services", href: "/services" },
     { label: "About", href: "/about" },
     { label: "Work", href: "/work" },
-    { label: "Case study", href: "/work/nedia" },
+    // REMOVED: Do not need this
+    { label: "Case study", href: "/work/rewriter-pro" },
   ],
   action: {
     label: "Let's talk",

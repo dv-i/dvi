@@ -3,7 +3,6 @@ name: Sastastic
 shortDescription: Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget sed, convallis at tellus.
 category: Startup
 image: "/stock/work/featured-work-image-03.jpg"
-featured: true
 date: Feb. 2022
 stack:
   - tech: html

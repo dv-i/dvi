@@ -1,16 +1,15 @@
 ---
-name: Nedia
+name: Sigma
 shortDescription: Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget sed, convallis at tellus.
-category: Ecommerce
-image: "/stock/work/featured-work-image-01.jpg"
-featured: true
-date: Jun. 2022
+category: Social App
+image: "/stock/work/featured-work-image-02.jpg"
+date: Aug. 2022
 stack:
   - tech: html
   - tech: tailwind
 hero:
   tagline: Case study
-  headline: From idea to a thriving social platform
+  headline: Creating a new and better TikTok
   keyPoints:
     - label: Challenge
       text: Lorem ipsum dolor sit amet, consectetur adipisicing elitdo eius mod tempor.

@@ -3,7 +3,6 @@ name: Pantone
 shortDescription: Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget sed, convallis at tellus.
 category: Food
 image: "/stock/work/featured-work-image-04.jpg"
-featured: true
 date: Dec. 2021
 stack:
   - tech: html

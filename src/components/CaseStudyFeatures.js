@@ -2,7 +2,7 @@ import Image from "next/image";
 import clsx from "clsx";
 
 export const CaseStudyFeatures = ({ data }) => {
-  return (
+  return data ? (
     <section className="px-4 py-12 md:pt-16 sm:pb-24 sm:px-6 lg:px-8">
       <div className="max-w-screen-xl mx-auto">
         {/* Section text */}
@@ -81,5 +81,7 @@ export const CaseStudyFeatures = ({ data }) => {
         ))}
       </div>
     </section>
+  ) : (
+    <></>
   );
 };

@@ -38,6 +38,10 @@ import {
   Puzzle,
   BrandHtml5,
   BrandTailwind,
+  BrandReact,
+  BrandMongodb,
+  BrandNextjs,
+  BrandStripe,
 } from "tabler-icons-react";
 
 const iconOptions = {
@@ -80,6 +84,10 @@ const iconOptions = {
   puzzle: Puzzle,
   html: BrandHtml5,
   tailwind: BrandTailwind,
+  nextjs: BrandNextjs,
+  react: BrandReact,
+  mongodb: BrandMongodb,
+  stripe: BrandStripe,
 };
 
 export const Icon = ({ name, className = "" }) => {
