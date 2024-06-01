@@ -62,7 +62,7 @@ export default function ContactPage() {
                     {address.country}
                   </h5>
                   <p className="mt-1 text-base text-dark-300">
-                    {/* TODO: Add this when we have an official address in all countries */}
+                    {/* TODO: Add this when we have an official address in all countries :P */}
                     {/* {address.street}
                     <br /> */}
                     {address.city}, {address.state} {address.zip}
