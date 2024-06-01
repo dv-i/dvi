@@ -6,7 +6,7 @@ import { Process } from "@/components/Process";
 import { CallToAction } from "@/components/CallToAction";
 
 export const metadata = {
-  title: "Services - Crator",
+  title: "Services - Dvi",
   description:
     "We help you develop a website that is custom-made for your business. Our services include, but are not limited to: Web design, Web Development and SEO.",
 };
