@@ -22,9 +22,9 @@ export const ServicesHero = () => {
           <div className="z-10 grid gap-x-8 lg:grid-cols-2 lg:absolute">
             <div>
               <p className="max-w-lg text-xl lg:mx-auto text-dark-300 sm:max-w-3xl">
-                Elevating businesses with expertly designed and executed digital
-                strategies. Crator is here to help you conquer the online space
-                one pexel at a time.
+                From small tweaks to grand overhauls, we've got you covered.
+                Dive into our services to uncover solutions tailored to conquer
+                your toughest hurdles and propel your business forward.
               </p>
               <div className="mt-8 sm:flex sm:justify-start">
                 <PrimaryButton

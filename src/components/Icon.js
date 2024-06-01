@@ -42,6 +42,10 @@ import {
   BrandMongodb,
   BrandNextjs,
   BrandStripe,
+  Eyeglass,
+  Robot,
+  DeviceLaptop,
+  LayersIntersect,
 } from "tabler-icons-react";
 
 const iconOptions = {
@@ -88,6 +92,10 @@ const iconOptions = {
   react: BrandReact,
   mongodb: BrandMongodb,
   stripe: BrandStripe,
+  eyeGlass: Eyeglass,
+  robot: Robot,
+  laptop: DeviceLaptop,
+  layers: LayersIntersect,
 };
 
 export const Icon = ({ name, className = "" }) => {

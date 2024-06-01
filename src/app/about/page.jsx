@@ -6,9 +6,9 @@ import { Team } from "@/components/Team";
 import { CallToAction } from "@/components/CallToAction";
 
 export const metadata = {
-  title: "About us - Crator",
+  title: "About us - Dvi",
   description:
-    "We're a creative, strategic and technically awesome web design agency. Our design team are experts, our developers are clever and our strategies are proven.",
+    "We're a creative, strategic and technically awesome tech agency. Our design team are experts, our developers are clever and our strategies are proven.",
 };
 
 export default function AboutPage() {
@@ -44,7 +44,9 @@ export default function AboutPage() {
 
       <Values />
       <Team />
-      <SocialProof />
+
+      {/* REMOVED: We don't need this, it's in the home page */}
+      {/* <SocialProof /> */}
       <CallToAction />
     </>
   );

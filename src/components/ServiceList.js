@@ -5,12 +5,12 @@ const services = [
   {
     service: "UI/UX Design",
     text: "Transforming ideas into visually compelling and functional designs that users love.",
-    icon: "box",
+    icon: "layers",
   },
   {
     service: "Web Development",
     text: "Crafting robust and responsive websites that seamlessly operate across devices.",
-    icon: "circles",
+    icon: "code",
   },
   {
     service: "Mobile App Development",
@@ -18,19 +18,19 @@ const services = [
     icon: "circleSquare",
   },
   {
-    service: "Digital Marketing",
-    text: "Driving brand awareness and growth through tailored digital marketing strategies.",
+    service: "Custom Solutions",
+    text: "Tailoring bespoke software solutions to tackle your business's unique challenges head-on.",
     icon: "diamond",
   },
   {
-    service: "Branding Services",
-    text: "Building strong, cohesive brand identities that resonate with target audiences.",
-    icon: "stack",
+    service: "Technical Consulting",
+    text: "Providing actionable insights to optimize your tech infrastructure and foster innovation.",
+    icon: "laptop",
   },
   {
-    service: "SEO Optimization",
-    text: "Enhancing your online visibility and ranking through proven SEO strategies.",
-    icon: "triangle",
+    service: "Automation Tools",
+    text: "Developing efficient automation tools that streamline your business operations, saving you time and resources.",
+    icon: "robot",
   },
 ];
 

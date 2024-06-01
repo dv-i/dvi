@@ -9,8 +9,8 @@ import handbookImage from "/public/stock/handbook.jpg";
 const features = [
   {
     tagline: "Our vision",
-    headline: "We believe in the power of creative ideas",
-    text: "In the heart of our company lies a strong belief in the transformative power of ideas. Leveraging innovation and originality, we aim to deliver results that exceed expectations.",
+    headline: "Fueling success with creative solutions",
+    text: "Our vision? To fuel your success with innovative, out-of-the-box solutions that bring your dreams to life.",
     image: {
       src: valuesImage,
       alt: "Woman point at computer screen",
@@ -25,27 +25,6 @@ const features = [
         label: "Product Mindset",
         text: "Our focus: user-centric, engaging, and valuable products with purpose.",
         icon: "bulb",
-      },
-    ],
-  },
-  {
-    tagline: "Our handbook",
-    headline: "How we work and collaborate with our clients",
-    text: "Our work philosophy revolves around active collaboration and open dialogue. We engage with clients every step of the way, ensuring their vision is at the heart of our designs and strategies.",
-    image: {
-      src: handbookImage,
-      alt: "Office workers looking at post-its on wall",
-    },
-    items: [
-      {
-        label: "User focused",
-        text: "User experience is paramount. We build for impact, intuitiveness, and joy.",
-        icon: "user",
-      },
-      {
-        label: "Clear communication",
-        text: "Clarity guides our interactions. We ensure you're informed and involved.",
-        icon: "phone",
       },
     ],
   },

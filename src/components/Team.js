@@ -1,72 +1,28 @@
 import Image from "next/image";
 import { SocialLink } from "@/components/SocialLink";
 
-import staffImage1 from "/public/stock/team/team-01.jpg";
-import staffImage2 from "/public/stock/team/team-02.jpg";
-import staffImage3 from "/public/stock/team/team-03.jpg";
-import staffImage4 from "/public/stock/team/team-04.jpg";
-import staffImage5 from "/public/stock/team/team-05.jpg";
-import staffImage6 from "/public/stock/team/team-06.jpg";
+import bhavyaImage from "/public/stock/team/bhavya.jpeg";
+import jaimishImage from "/public/stock/team/jaimish.jpeg";
 
 const team = [
   {
-    name: "Kaylen Meyer",
-    job: "CEO",
-    image: staffImage1,
+    name: "Bhavya Shah",
+    job: "Co-founder",
+    image: bhavyaImage,
     socials: [
-      { name: "instagram", href: "#0" },
-      { name: "facebook", href: "#0" },
-      { name: "twitter", href: "#0" },
+      { name: "linkedin", href: "https://www.linkedin.com/in/bshah4397/" },
     ],
   },
   {
-    name: "Coriss Ambady",
-    job: "Lead Developer",
-    image: staffImage2,
+    name: "Jaimish Ashar",
+    job: "Co-founder",
+    image: jaimishImage,
     socials: [
-      { name: "instagram", href: "#0" },
-      { name: "facebook", href: "#0" },
-      { name: "twitter", href: "#0" },
-    ],
-  },
-  {
-    name: "Lester Mccall",
-    job: "Senior Designer",
-    image: staffImage3,
-    socials: [
-      { name: "instagram", href: "#0" },
-      { name: "facebook", href: "#0" },
-      { name: "twitter", href: "#0" },
-    ],
-  },
-  {
-    name: "Misha Mustafa",
-    job: "Studio Artist",
-    image: staffImage4,
-    socials: [
-      { name: "instagram", href: "#0" },
-      { name: "facebook", href: "#0" },
-      { name: "twitter", href: "#0" },
-    ],
-  },
-  {
-    name: "Stefan Stefancik",
-    job: "Designer",
-    image: staffImage5,
-    socials: [
-      { name: "instagram", href: "#0" },
-      { name: "facebook", href: "#0" },
-      { name: "twitter", href: "#0" },
-    ],
-  },
-  {
-    name: "Vivien Smith",
-    job: "Developer",
-    image: staffImage6,
-    socials: [
-      { name: "instagram", href: "#0" },
-      { name: "facebook", href: "#0" },
-      { name: "twitter", href: "#0" },
+      { name: "linkedin", href: "https://www.linkedin.com/in/jaimish-ashar/" },
+      // TODO: Add them when we want to expand in the future
+      // { name: "instagram", href: "#0" },
+      // { name: "facebook", href: "#0" },
+      // { name: "twitter", href: "#0" },
     ],
   },
 ];
@@ -81,16 +37,18 @@ export const Team = () => {
             The team
           </p>
           <h2 className="mt-6 text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
-            Decades of experience in design and development
+            Designing Tomorrow, Today
           </h2>
           <p className="mt-6 text-xl text-dark-300">
-            Our diverse team unites industry veterans and innovative minds, all
-            committed to delivering transformative digital experiences.
+            Two minds, boundless potential. With over a decade of combined
+            experience in design and development, we offer diverse expertise
+            across industries like healthcare, e-commerce, IT, and AI. Let's
+            shape the future together.
           </p>
         </div>
 
         {/* Team section */}
-        <div className="grid max-w-6xl mx-auto mt-12 gap-x-6 gap-y-12 lg:mt-16 sm:grid-cols-2 md:grid-cols-3 lg:gap-x-12 lg:gap-y-16">
+        <div className="grid max-w-6xl mx-auto mt-12 gap-x-6 gap-y-12 lg:mt-16 sm:grid-cols-2 md:grid-cols-2 lg:gap-x-12 lg:gap-y-16">
           {team.map((member, i) => (
             <div
               key={`team-member-${i}`}

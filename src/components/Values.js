@@ -2,19 +2,19 @@ import { Icon } from "@/components/Icon";
 
 const values = [
   {
-    value: "Quality",
-    text: "We strive for excellence in all facets of our work, assuring high-end results.",
-    icon: "flame",
-  },
-  {
-    value: "Improvement",
-    text: "We are committed to learning, adapting, and constantly elevating our game.",
-    icon: "trendingUp",
-  },
-  {
-    value: "Team work",
-    text: "We believe in collective efforts, fostering a culture of collaboration and support.",
+    value: "Relationships",
+    text: "We're all about building strong bonds with our clients, fueled by open chats and mutual respect.",
     icon: "users",
+  },
+  {
+    value: "Transparency",
+    text: "Honesty is our policy. We keep things crystal clear, ensuring trust and smooth sailing in every project.",
+    icon: "eyeGlass",
+  },
+  {
+    value: "Quality",
+    text: "We're sticklers for detail. Our digital products? Top-notch quality, every pixel counts.",
+    icon: "shieldCheck",
   },
 ];
 

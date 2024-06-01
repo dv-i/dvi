@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import teamImage from "/public/stock/team/team.jpg";
+import teamImage from "/public/stock/team/team-alt.jpg";
 
 export const AboutHero = () => {
   return (
@@ -12,12 +12,13 @@ export const AboutHero = () => {
             About us
           </p>
           <h1 className="mt-4 text-4xl font-extrabold text-white md:mt-5 sm:text-5xl md:text-6xl">
-            A small creative team excited to create beautiful things
+            Your tech allies, Ready to build
           </h1>
           <p className="max-w-lg mx-auto mt-4 text-xl md:mt-5 text-dark-300 md:max-w-3xl">
-            Born out of a shared passion for design and innovation, we're a
-            dedicated team committed to turning visions into impactful digital
-            realities.
+            Just us, a dynamic duo ready to tackle your tech challenges. We're
+            all about understanding your needs and delivering beyond your
+            expectations. Let's craft the future together, one project at a
+            time.
           </p>
         </div>
         {/* Hero image */}
