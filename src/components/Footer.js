@@ -30,15 +30,15 @@ export const Footer = () => {
           <div className="flex items-center">
             <Link href="/" className="text-2xl font-black lg:block group">
               <span className="text-white transition duration-200 ease-in-out group-hover:text-dark-300">
-                Crator{" "}
+                Dvi{" "}
               </span>
               <span className="transition duration-200 ease-in-out text-dark-300 group-hover:text-white">
-                Studio
+                Technologies
               </span>
             </Link>
           </div>
           <div className="mt-6 text-lg md:mt-8 text-dark-300">
-            © {new Date().getFullYear()} Crator Studio.
+            © {new Date().getFullYear()} Dvi Technologies Pvt. Ltd.
             <br /> All rights reserved.
           </div>
         </div>
@@ -81,7 +81,7 @@ export const Footer = () => {
             <div className="flex justify-start space-x-4">
               <SocialLink href="#0" icon="instagram" />
               <SocialLink href="#0" icon="facebook" />
-              <SocialLink href="#0" icon="twitter" />
+              <SocialLink href="#0" icon="linkedin" />
             </div>
           </div>
         </div>

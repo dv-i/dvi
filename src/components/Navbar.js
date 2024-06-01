@@ -122,10 +122,10 @@ export const Navbar = () => {
               className="block text-2xl font-black md:hidden lg:block group"
             >
               <span className="text-white transition duration-200 ease-in-out group-hover:text-dark-300">
-                Crator{" "}
+                Dvi{" "}
               </span>
               <span className="transition duration-200 ease-in-out text-dark-300 group-hover:text-white">
-                Studio
+                Technologies
               </span>
             </Link>
 
@@ -135,10 +135,10 @@ export const Navbar = () => {
               className="hidden text-3xl font-black md:block lg:hidden group"
             >
               <span className="text-white transition duration-200 ease-in-out group-hover:text-dark-300">
-                C
+                Dvi
               </span>
               <span className="transition duration-200 ease-in-out text-dark-300 group-hover:text-white">
-                S
+                &nbsp;T
               </span>
             </Link>
           </div>

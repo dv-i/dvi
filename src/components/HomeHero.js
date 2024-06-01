@@ -3,7 +3,7 @@ import Image from "next/image";
 import { PrimaryButton } from "@/components/buttons/PrimaryButton";
 import { SecondaryButton } from "@/components/buttons/SecondaryButton";
 
-import heroImage from "/public/stock/hero-home.jpg";
+import heroImage from "/public/stock/hero-home-2.jpg";
 
 export const HomeHero = () => {
   return (
@@ -32,9 +32,9 @@ export const HomeHero = () => {
                 Let’s make your product a success
               </h1>
               <p className="mt-6 text-xl text-dark-300">
-                Crator is your partner in digital innovation. We fuse strategic
-                thinking with standout design and development to deliver
-                uniquely tailored solutions.
+                We design and develop software that aligns with your goals and
+                exceeds expectations. Let's build something extraordinary
+                together.
               </p>
             </div>
             {/* Hero buttons */}
@@ -52,7 +52,7 @@ export const HomeHero = () => {
           <div className="relative flex items-center justify-center w-full max-w-xl mx-auto mt-12 sm:mt-16 lg:mt-0 lg:max-w-none">
             <Image
               src={heroImage}
-              alt="Crator studio office"
+              alt="Dvi's future studio office"
               priority
               className="z-30 object-cover w-auto h-full shadow-md rounded-3xl"
               sizes="(min-width: 1280px) 36.5rem, (min-width: 1024px) calc(50vw - 5rem), (min-width: 640px) 36rem, calc(100vw - 4rem)"
