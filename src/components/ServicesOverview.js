@@ -3,27 +3,27 @@ import clsx from "clsx";
 
 import { Icon } from "@/components/Icon";
 
-import portraitImage from "/public/stock/what-we-do-image-01.jpg";
-import squareImage1 from "/public/stock/what-we-do-image-02.jpg";
+import portraitImage from "/public/stock/what-we-do-image-05.jpg";
+import squareImage1 from "/public/stock/what-we-do-image-04.jpg";
 import squareImage2 from "/public/stock/what-we-do-image-03.jpg";
 
 const services = [
   {
-    label: "Web Design",
+    label: "Product Development",
     description:
-      "We craft visually stunning, unforgettable experiences with responsive design at the forefront.",
+      "We create visually stunning, high-performance products with precision and care, designed to inspire and engage users",
+    icon: "rocket",
+  },
+  {
+    label: "UI/UX Design",
+    description:
+      "We excel in crafting eye-catching designs that are not only visually appealing but also highly functional, user-friendly, and enhance your brand.",
     icon: "artboard",
   },
   {
-    label: "Web Development",
+    label: "Consultancy & Optimization",
     description:
-      "We excell at converting eye-catching designs into high-functioning, user-friendly web applications.",
-    icon: "code",
-  },
-  {
-    label: "Maintenance & Optimization",
-    description:
-      "We ensure your site remains an effective, optimized tool for your business needs, goals and growth.",
+      "We specialize in providing strategic guidance and practical solutions to optimize, automate, and fine-tune your tech infrastructure, accelerating your business growth",
     icon: "tool",
   },
 ];
@@ -39,7 +39,7 @@ export const ServicesOverview = () => {
         <div className="grid w-full gap-6 mt-6 lg:grid-cols-5">
           <div className="lg:col-span-3">
             <h2 className="text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
-              We create digital products that help you get ahead
+              We craft innovative solutions for a digital world
             </h2>
           </div>
           <div className="lg:col-span-2">

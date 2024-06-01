@@ -1,54 +1,55 @@
 import Image from "next/image";
 import clsx from "clsx";
 
-import testimonialImage1 from "/public/stock/testimonials/testimonial-01.jpg";
-import testimonialImage2 from "/public/stock/testimonials/testimonial-02.jpg";
-import testimonialImage3 from "/public/stock/testimonials/testimonial-03.jpg";
-import testimonialImage4 from "/public/stock/testimonials/testimonial-04.jpg";
+import juliaImage from "/public/stock/testimonials/julia_durnin.jpg";
+import kamranImage from "/public/stock/testimonials/kamran_khan.jpg";
+import curtImage from "/public/stock/testimonials/curt_henrichs.jpg";
+import steveImage from "/public/stock/testimonials/steve_viktor.jpg";
 
 const stats = [
   {
     label: "Happy clients",
-    value: 69,
+    value: "15+",
   },
   {
     label: "Projects completed",
-    value: 420,
+    value: "25+",
   },
   {
-    label: "Years in business",
-    value: 20,
+    label: "Repeat Clients",
+    value: "40%",
   },
 ];
 
 const testimonials = [
   {
-    name: "Katy Perry",
-    jobTitle: "CEO, Spotify",
+    name: "Julia Durnin",
+    jobTitle: "Founder, MuchBeta",
     testimonial:
-      "Working with Crator was a game-changer. Their creative vision truly amplified our brand's potential.",
-    image: testimonialImage1,
+      "Very professional, communicative and completed the project meeting all my expectations. Highly recommend!",
+    image: juliaImage,
   },
   {
-    name: "Henry Krasner",
-    jobTitle: "CEO, Twitter",
+    name: "Kamran Khan",
+    jobTitle: "Founder, RewriterPro AI",
     testimonial:
-      "Crator's innovative design solutions played a key role in our product's successful launch.",
-    image: testimonialImage2,
+      "It was great to work with them, He understand the requirements well, delivered an professional web app.",
+    image: kamranImage,
   },
   {
-    name: "Bob Foster",
-    jobTitle: "CEO, Amazon",
+    name: "Curt Henrichs",
+    jobTitle: "Senior Embedded Systems Engineer",
     testimonial:
-      "Crator's team is exceptional. Their commitment to quality exceeded our highest expectations.",
-    image: testimonialImage3,
+      "Strong core development skills and successfully took a design from a vanilla javascript/HTML prototype to typescript react project.",
+    image: curtImage,
   },
   {
-    name: "Ema Roberts",
-    jobTitle: "Founder, Dropbox",
+    name: "Steve Viktor",
+    jobTitle: "Founder, My Choc Shop",
+    subJobTitle: "( Featured on Dragon's Den )",
     testimonial:
-      "From concept to execution, Crator's approach was seamlessly integrated and highly efficient.",
-    image: testimonialImage4,
+      "His attention to detail, technical expertise, and responsiveness were truly exceptional. Communication skills were top-notch.",
+    image: steveImage,
   },
 ];
 
@@ -139,6 +140,11 @@ export const SocialProof = () => {
                   </div>
                   <div className="text-base font-medium leading-6 text-dark-400">
                     {item.jobTitle}
+                    {item.subJobTitle && (
+                      <>
+                        <div>{item.subJobTitle}</div>
+                      </>
+                    )}
                   </div>
                 </div>
               </footer>

@@ -10,7 +10,10 @@ export default function HomePage() {
   return (
     <>
       <HomeHero />
-      <LogoCloud />
+      {/* TODO: Need to put this in future. 
+          Removing this until we have bigger 
+          brand names to put in our portfolio. */}
+      {/* <LogoCloud /> */}
 
       {/* Diagonal section separator */}
       <div className="relative w-full h-16 md:h-32 lg:h-48">
@@ -39,7 +42,8 @@ export default function HomePage() {
       </div>
 
       <section className="pt-10 pb-12 bg-gradient-to-b md:pt-12 md:pb-16 from-dark-900 to-dark-800">
-        <Process />
+        {/* REMOVED: We don't need this */}
+        {/* <Process /> */}
       </section>
 
       {/* Featured work wrapper */}
