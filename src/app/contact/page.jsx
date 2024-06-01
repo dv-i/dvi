@@ -1,68 +1,32 @@
-import clsx from "clsx";
-
-import { PrimaryButton } from "@/components/buttons/PrimaryButton";
 import { SocialLink } from "@/components/SocialLink";
+import ContactForm from "./ContactForm";
 
-const addresses = [
+export const addresses = [
   {
     street: "123 West Kanye Street",
-    city: "Los Angeles",
-    state: "CA",
-    zip: 90001,
+    city: "Boston",
+    country: "United States of America",
+    state: "MA",
+    zip: "02120",
   },
   {
     street: "456 East Drake Street",
-    city: "San Francisco",
-    state: "CA",
-    zip: 94111,
+    city: "Toronto",
+    country: "Canada",
+    state: "ON",
+    zip: "M5M2H4",
   },
   {
     street: "789 North Weezy Street",
-    city: "New York",
-    state: "NY",
-    zip: 10001,
-  },
-  {
-    street: "101 South Hova Street",
-    city: "Miami",
-    state: "FL",
-    zip: 33101,
-  },
-];
-
-const formFields = [
-  {
-    name: "name",
-    label: "Name *",
-    type: "text",
-    placeholder: "John Doe",
-    required: true,
-  },
-  {
-    name: "email",
-    label: "Email *",
-    type: "email",
-    placeholder: "john@email.com",
-    required: true,
-  },
-  {
-    name: "phone",
-    label: "Phone",
-    type: "text",
-    placeholder: "(123) 456-789",
-    required: false,
-  },
-  {
-    name: "message",
-    label: "Message *",
-    type: "textarea",
-    placeholder: "Message",
-    required: true,
+    city: "Mumbai",
+    country: "India",
+    state: "MH",
+    zip: 400058,
   },
 ];
 
 export const metadata = {
-  title: "Contact us - Crator",
+  title: "Contact us - Dvi",
   description:
     "Get in touch with our team to discuss how we can help bring your creative vision to life. Reach out to us for collaborative, innovative, and strategic web design and development services.",
 };
@@ -95,11 +59,12 @@ export default function ContactPage() {
               {addresses.map((address, index) => (
                 <div key={`address-${index}`}>
                   <h5 className="text-lg font-bold text-white">
-                    {address.city}
+                    {address.country}
                   </h5>
                   <p className="mt-1 text-base text-dark-300">
-                    {address.street}
-                    <br />
+                    {/* TODO: Add this when we have an official address in all countries */}
+                    {/* {address.street}
+                    <br /> */}
                     {address.city}, {address.state} {address.zip}
                   </p>
                 </div>
@@ -118,53 +83,9 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
-          {/* Contact form card */}
-          <div className="w-full mt-12 lg:mt-0">
-            <div className="w-full px-4 py-12 mx-auto shadow-xl rounded-3xl lg:mr-0 lg:ml-auto bg-dark-700 sm:p-16 lg:p-14 xl:p-16">
-              {/* Contact form */}
-              <form action="#">
-                {formFields.map((field, index) => (
-                  <div
-                    key={`contact-form-field-${index}}`}
-                    className={clsx(index > 0 && "mt-6")}
-                  >
-                    <label
-                      htmlFor={field.name}
-                      className="ml-0.5 text-dark-300 font-medium text-sm"
-                    >
-                      {field.label}
-                    </label>
 
-                    {field.type == "textarea" && (
-                      <textarea
-                        id={field.name}
-                        name={field.name}
-                        placeholder={field.placeholder}
-                        rows={5}
-                        className="w-full p-4 mt-2 text-sm font-medium text-white transition duration-200 ease-in-out border-2 border-solid outline-none rounded-2xl bg-dark-800 border-dark-800 focus:border-dark-600 focus:outline-none"
-                        required={field.required}
-                      />
-                    )}
-
-                    {["text", "email"].includes(field.type) && (
-                      <input
-                        id={field.name}
-                        type={field.type}
-                        name={field.name}
-                        placeholder={field.placeholder}
-                        className="w-full p-4 mt-2 text-sm font-medium text-white transition duration-200 ease-in-out border-2 border-solid outline-none h-14 rounded-2xl bg-dark-800 border-dark-800 focus:border-dark-600 focus:outline-none"
-                        required={field.required}
-                      />
-                    )}
-                  </div>
-                ))}
-
-                <div className="flex justify-start mt-6">
-                  <PrimaryButton type="submit">Send message</PrimaryButton>
-                </div>
-              </form>
-            </div>
-          </div>
+          {/* ContactForm Card */}
+          <ContactForm />
         </div>
       </div>
     </section>

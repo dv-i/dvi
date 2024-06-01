@@ -10,7 +10,7 @@ const contact = {
     zip: "90001",
   },
   phone: "(415) 555-1234",
-  email: "hello@crator.com",
+  email: "hello@dvitech.co",
 };
 
 const footerLinks = [
@@ -45,14 +45,12 @@ export const Footer = () => {
         {/* Contact information */}
         <div className="lg:mx-auto">
           <h6 className="text-xl font-semibold text-white">Get in touch</h6>
-          <p className="mt-2 text-lg text-dark-300">
-            {contact.address.street}
-            <br />
-            {contact.address.city}, {contact.address.state}{" "}
-            {contact.address.zip}
-          </p>
-          <p className="mt-6 text-lg text-dark-300">{contact.phone}</p>
-          <p className="text-lg text-dark-300">{contact.email}</p>
+          <p className="mt-2 text-lg text-dark-300">United States of America</p>
+          <p className="mt-2 text-lg text-dark-300">Canada</p>
+          <p className="mt-2 text-lg text-dark-300">India</p>
+          {/* TODO: Add them when we have an official phone */}
+          {/* <p className="mt-6 text-lg text-dark-300">{contact.phone}</p> */}
+          <p className="text-lg text-dark-300 mt-6">{contact.email}</p>
         </div>
         {/* Site links */}
         <div className="lg:mx-auto">
