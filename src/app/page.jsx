@@ -30,7 +30,8 @@ export default function HomePage() {
       <ServicesOverview />
 
       {/* Diagonal section separator */}
-      <div className="relative w-full h-16 bg-dark-800 md:h-32 lg:h-48">
+      {/* TODO: Uncomment this when you add something in between Services & Featured Work */}
+      {/* <div className="relative w-full h-16 bg-dark-800 md:h-32 lg:h-48">
         <svg
           className="absolute w-full h-full text-dark-900"
           preserveAspectRatio="none"
@@ -39,12 +40,12 @@ export default function HomePage() {
         >
           <polygon points="0,100 100,100 100,0" />
         </svg>
-      </div>
+      </div> */}
 
-      <section className="pt-10 pb-12 bg-gradient-to-b md:pt-12 md:pb-16 from-dark-900 to-dark-800">
-        {/* REMOVED: We don't need this */}
-        {/* <Process /> */}
-      </section>
+      {/* REMOVED: We don't need this */}
+      {/* <section className="pt-10 pb-12 bg-gradient-to-b md:pt-12 md:pb-16 from-dark-900 to-dark-800">
+        <Process />
+      </section> */}
 
       {/* Featured work wrapper */}
       <section className="px-4 pt-12 pb-10 md:pb-12 md:pt-16 bg-dark-800 sm:px-6 lg:px-8">

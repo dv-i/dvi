@@ -1,7 +1,7 @@
 ---
 name: ReWriterPro AI
-shortDescription: "ReWriterPro AI: Elevate your content effortlessly with our AI-powered rewriting tool. Transform ordinary text into extraordinary communication in seconds."
-category: Content Marketing
+shortDescription: "ReWriterPro AI: Elevate your content effortlessly with our AI-powered rewriting tool. Transform ordinary text into extraordinary communication in seconds"
+category: AI Tool
 featured: true
 image: "/stock/work/work-image-04.jpg"
 url: https://rewriterpro.ai/

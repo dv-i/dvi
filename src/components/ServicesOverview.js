@@ -17,7 +17,7 @@ const services = [
   {
     label: "UI/UX Design",
     description:
-      "We excel in crafting eye-catching designs that are not only visually appealing but also highly functional, user-friendly, and enhance your brand.",
+      "We excel in crafting eye-catching designs that are not only visually appealing but also highly functional, user-friendly, and enhance your brand",
     icon: "artboard",
   },
   {
@@ -45,7 +45,7 @@ export const ServicesOverview = () => {
           <div className="lg:col-span-2">
             <p className="text-xl text-dark-300">
               From fresh ideas to fully-realized designs, we cover every aspect
-              of your digital presence.
+              of your digital presence
             </p>
           </div>
         </div>

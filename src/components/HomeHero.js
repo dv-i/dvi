@@ -34,7 +34,7 @@ export const HomeHero = () => {
               <p className="mt-6 text-xl text-dark-300">
                 We design and develop software that aligns with your goals and
                 exceeds expectations. Let's build something extraordinary
-                together.
+                together
               </p>
             </div>
             {/* Hero buttons */}

@@ -13,8 +13,8 @@ const navbar = {
     { label: "Home", href: "/" },
     { label: "Services", href: "/services" },
     { label: "About", href: "/about" },
-    { label: "Work", href: "/work" },
-    // REMOVED: Do not need this
+    // TODO: Add this once we have work section done
+    // { label: "Work", href: "/work" },
     { label: "Case study", href: "/work/rewriter-pro" },
   ],
   action: {

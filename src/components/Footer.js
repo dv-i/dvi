@@ -17,7 +17,8 @@ const footerLinks = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
   { label: "About", href: "/about" },
-  { label: "Work", href: "/work" },
+  // TODO: Add when work is built
+  // { label: "Work", href: "/work" },
   { label: "Contact us", href: "/contact" },
 ];
 
@@ -45,12 +46,15 @@ export const Footer = () => {
         {/* Contact information */}
         <div className="lg:mx-auto">
           <h6 className="text-xl font-semibold text-white">Get in touch</h6>
-          <p className="mt-2 text-lg text-dark-300">United States of America</p>
+          <p className="mt-2 text-lg text-dark-300">USA</p>
           <p className="mt-2 text-lg text-dark-300">Canada</p>
           <p className="mt-2 text-lg text-dark-300">India</p>
           {/* TODO: Add them when we have an official phone */}
           {/* <p className="mt-6 text-lg text-dark-300">{contact.phone}</p> */}
-          <p className="text-lg text-dark-300 mt-6">{contact.email}</p>
+          <div className="mt-6" />
+          <a href={`mailto:${contact.email}`} className="text-lg text-dark-300">
+            {contact.email}
+          </a>
         </div>
         {/* Site links */}
         <div className="lg:mx-auto">
@@ -66,8 +70,9 @@ export const Footer = () => {
             ))}
           </ul>
         </div>
+        {/* REMOVED: Don't need this at the moment */}
         {/* Social links */}
-        <div className="sm:col-span-3 lg:col-span-1 lg:mx-auto">
+        {/* <div className="sm:col-span-3 lg:col-span-1 lg:mx-auto">
           <h6 className="text-xl font-semibold text-white">
             Follow us on social media
           </h6>
@@ -75,14 +80,14 @@ export const Footer = () => {
             Stay connected and updated on our latest projects.
           </p>
           <div className="w-full mt-4 lg:mt-6">
-            {/* Social links container */}
+            // Social Link Container
             <div className="flex justify-start space-x-4">
               <SocialLink href="#0" icon="instagram" />
               <SocialLink href="#0" icon="facebook" />
               <SocialLink href="#0" icon="linkedin" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

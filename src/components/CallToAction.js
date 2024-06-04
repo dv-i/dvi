@@ -19,11 +19,11 @@ export const CallToAction = () => {
         <div className="relative z-30 flex flex-col items-center justify-center px-4 mx-auto text-center sm:px-16 lg:flex-row lg:text-left">
           <div className="max-w-lg text-2xl font-bold sm:text-4xl lg:w-1/2">
             <h5 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
-              Let's make something great together.
+              Let's make something great together
             </h5>
           </div>
           <div className="flex justify-center max-w-lg mt-10 lg:w-1/2 lg:mt-0 lg:justify-end">
-            <PrimaryButton href="#0">Let's connect</PrimaryButton>
+            <PrimaryButton href="/contact">Let's connect</PrimaryButton>
           </div>
         </div>
       </div>

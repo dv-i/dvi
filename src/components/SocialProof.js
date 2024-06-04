@@ -8,47 +8,47 @@ import steveImage from "/public/stock/testimonials/steve_viktor.jpg";
 
 const stats = [
   {
-    label: "Happy clients",
-    value: "15+",
+    label: "Completed Projects",
+    value: "45",
   },
   {
-    label: "Projects completed",
-    value: "25+",
+    label: "Global Reach ( Countries )",
+    value: "8",
   },
   {
-    label: "Repeat Clients",
-    value: "40%",
+    label: "Returning Clients",
+    value: "50%",
   },
 ];
 
 const testimonials = [
   {
     name: "Julia Durnin",
-    jobTitle: "Founder, MuchBeta",
+    jobTitle: "Founder @ MuchBeta",
     testimonial:
       "Very professional, communicative and completed the project meeting all my expectations. Highly recommend!",
     image: juliaImage,
   },
   {
     name: "Kamran Khan",
-    jobTitle: "Founder, RewriterPro AI",
+    jobTitle: "Founder @ RewriterPro AI",
     testimonial:
-      "It was great to work with them, He understand the requirements well, delivered an professional web app.",
+      "It was great to work with them, He understand the requirements well, delivered an professional web app",
     image: kamranImage,
   },
   {
     name: "Curt Henrichs",
-    jobTitle: "Senior Embedded Systems Engineer",
+    jobTitle: "Engineer @ Integrated Dynamic Electron Solutions Inc",
     testimonial:
-      "Strong core development skills and successfully took a design from a vanilla javascript/HTML prototype to typescript react project.",
+      "Strong core development skills and successfully took a design from a vanilla javascript/HTML prototype to typescript react project",
     image: curtImage,
   },
   {
     name: "Steve Viktor",
-    jobTitle: "Founder, My Choc Shop",
+    jobTitle: "Founder @ My Choc Shop",
     subJobTitle: "( Featured on Dragon's Den )",
     testimonial:
-      "His attention to detail, technical expertise, and responsiveness were truly exceptional. Communication skills were top-notch.",
+      "His attention to detail, technical expertise, and responsiveness were truly exceptional. Communication skills were top-notch!",
     image: steveImage,
   },
 ];
@@ -66,7 +66,7 @@ export const SocialProof = () => {
         </h2>
         <p className="mt-6 text-xl text-dark-300">
           Discover first-hand accounts from our clients, who experienced the
-          transformative power of our creative solutions.
+          transformative power of our creative solutions
         </p>
       </div>
 
@@ -81,7 +81,7 @@ export const SocialProof = () => {
               </h3>
               <p className="mt-3 text-lg text-dark-300 lg:mt-4">
                 We pride ourselves on delivering exceptional and tangible
-                results that matter to you.
+                results that matter to you
               </p>
             </div>
             <div className="mt-8 text-center sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8 md:block">
