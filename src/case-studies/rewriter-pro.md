@@ -34,7 +34,7 @@ statsSection:
   text: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus repellat laudantium.
   action:
     href: "https://rewriterpro.ai/"
-    label: Learn more
+    label: Demo
   stats:
     - label: Grammatical errors reduced
       value: 95%

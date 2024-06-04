@@ -72,15 +72,15 @@ export default function ContactPage() {
             </div>
             {/* Social media links */}
             <div className="w-full mt-8 sm:mt-10 lg:mt-0">
-              <h6 className="text-lg font-semibold text-left text-white sm:text-center lg:text-left">
+              {/* <h6 className="text-lg font-semibold text-left text-white sm:text-center lg:text-left">
                 Follow us
               </h6>
-              {/* Links container */}
+              // Link Container
               <div className="flex justify-start mt-3 space-x-4 sm:justify-center lg:justify-start">
                 <SocialLink href="#0" icon="instagram" />
                 <SocialLink href="#0" icon="facebook" />
                 <SocialLink href="#0" icon="twitter" />
-              </div>
+              </div> */}
             </div>
           </div>
 

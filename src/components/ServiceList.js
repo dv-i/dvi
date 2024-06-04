@@ -36,7 +36,7 @@ const services = [
 
 export const ServiceList = () => {
   return (
-    <section className="px-4 pt-10 pb-10 md:pt-12 md:pb-12 bg-dark-900 sm:px-6 lg:px-8">
+    <section className="px-4 pt-10 pb-10 md:pt-12 md:pb-12 bg-dark-800 sm:px-6 lg:px-8">
       <div className="flex flex-wrap items-center w-full max-w-screen-xl mx-auto">
         <div className="flex flex-wrap w-full">
           {/* Section header with button */}

@@ -34,15 +34,8 @@ const formFields = [
   },
 ];
 
-const colorMapper = {
-  error: "red",
-  success: "green",
-  neutral: "dark",
-};
-
 function ContactForm() {
   const [result, setResult] = useState();
-  const [color, setColor] = useState("neutral");
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -59,12 +52,10 @@ function ContactForm() {
     const data = await response.json();
 
     if (data.success) {
-      setColor("success");
       setResult("Form submitted successfully. We will be in touch shortly!");
       event.target.reset();
     } else {
       console.log("Error", data);
-      setColor("error");
       setResult("Unable to submit form!");
     }
   };
@@ -117,7 +108,7 @@ function ContactForm() {
             </div>
 
             <p
-              className={`max-w-lg mx-auto mt-3 text-sm md:mt-5 sm:max-w-2xl text-${colorMapper[color]}-300 h-1`}
+              className={`max-w-lg mx-auto mt-3 text-sm md:mt-5 sm:max-w-2xl text-white h-1`}
             >
               {result}
             </p>
