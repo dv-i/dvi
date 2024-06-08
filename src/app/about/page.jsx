@@ -28,7 +28,8 @@ export default function AboutPage() {
         </svg>
       </div>
 
-      <FeaturesAlternatingWithIcons />
+      {/* <FeaturesAlternatingWithIcons /> */}
+      <Values />
 
       {/* Diagonal section separator */}
       <div className="relative w-full h-16 bg-dark-800 md:h-32 lg:h-48">
@@ -42,7 +43,7 @@ export default function AboutPage() {
         </svg>
       </div>
 
-      <Values />
+      {/* <Values /> */}
       <Team />
 
       {/* REMOVED: We don't need this, it's in the home page */}

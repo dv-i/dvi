@@ -20,7 +20,7 @@ const values = [
 
 export const Values = () => {
   return (
-    <section className="px-4 pt-10 pb-12 md:pt-12 md:pb-16 sm:px-6 lg:px-8">
+    <section className="px-4 pt-10 pb-12 md:pt-12 md:pb-16 sm:px-6 lg:px-8 bg-dark-800">
       <div className="w-full max-w-screen-xl mx-auto">
         {/* Section text */}
         <div className="w-full max-w-xl mx-auto text-center lg:max-w-3xl md:max-w-2xl">
